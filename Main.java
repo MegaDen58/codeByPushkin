@@ -38,7 +38,7 @@ public class Main {
                 String kk = word1[i] + "";
                 String first = (int)numberOfString(kk, text) + "";
                 int index = forIndex.indexOf(letter[i]);
-                String second = index + "";
+                String second = index + 1 + "";
                 result += "(" + first + " ; " + second + ") ";
             }
             System.out.println(result);
